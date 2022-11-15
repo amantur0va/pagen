@@ -1,0 +1,115 @@
+@mixin df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin btn {
+  background: #F57059;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 10px 25px;
+  transition: .4s;
+  &:hover {
+    background: transparent;
+    transform: scale(1.1);
+    color: #000000;
+  }
+}
+
+@mixin da {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin btn1 {
+  background: #F57059;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-family: 'Gilroy-SemiBold', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: .4s;
+  &:hover {
+    transform: scale(1.1);
+    color: #000000;
+    border: none;
+    background: transparent;
+  }
+}
+
+@mixin alignment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin alignment-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin section-title {
+  font-weight: 800;
+  letter-spacing: -0.03 em;
+  color: #000000;
+}
+
+@mixin section-parag {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #64607D;
+}
+@mixin center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ @mixin input{
+  background: #F2F3F4;
+  opacity: 0.2;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+}
+@mixin de{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@mixin start{
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+}
+@mixin input1{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  padding: 15px 30px;
+}
+@mixin end{
+  background: #00E1F0;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  transition: .4s;
+  border-radius: 5px;
+  &:hover{
+    transform: scale(1.1);
+    border: 1px solid #000000;
+    background: transparent;
+    color: #16012C;
+
+  }
+}

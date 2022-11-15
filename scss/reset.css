@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+input {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+/*# sourceMappingURL=reset.css.map */
